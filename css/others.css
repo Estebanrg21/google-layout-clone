@@ -1,0 +1,62 @@
+header{
+    height: 8%;
+}
+main{
+    height: 79%;
+}
+.logo-google{
+    width: 600px;
+    justify-content: center;
+}
+.buscador{
+    height: 45px;
+}
+.lupa{
+    width: 7.3%;
+}
+.busqueda-voz{
+    width: 10%;
+}
+.buscador > input{
+    width: 82.7%;
+}
+.botones{
+    width: 300px;
+    height: 38px;
+    
+}
+.botones button{
+    height: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+footer{
+    height: 13%;
+}
+
+.footer-nav{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+}
+.footer-llist,.footer-rlist{
+    flex-wrap: wrap;
+    width: 30%;
+    justify-content: space-evenly;
+    font-size: 1.4rem;
+    list-style: none;
+    
+}
+.footer-rlist{
+    width: 17%;
+}
+footer .footer-nav .footer-llist li:last-child{
+    display: flex;
+}
+ .footer-llist li:nth-child(1),.footer-rlist li:nth-child(2){
+     order:0;
+ }
+ .footer-llist li:nth-child(3),.footer-rlist li:first-child{
+     order:0;
+ }

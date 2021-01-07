@@ -1,0 +1,45 @@
+header{
+    height: 10%;
+}
+.main{
+    align-items: flex-start;
+}
+.logo-google{
+    height: 80%;
+    justify-content: flex-start;
+}
+.logo-google > div{
+    margin-bottom: 25px;
+}
+.busqueda-voz{
+    display: flex;
+    width: 8%;
+}
+.buscador{
+    height: 40px;
+}
+.lupa{
+    width: 8%;   
+}
+.busqueda-voz > div{
+    width: 50%;
+}
+ .buscador > input{
+    width: 84%; 
+}
+.busqueda-botones{
+    height: auto;
+}
+.botones{
+    margin-bottom: 25px;
+}
+
+@media (min-width:768px){
+    .main .logo-google > div{
+    margin-bottom: 30px;
+}
+
+.logo-google .buscador .busqueda-voz > div{
+    width: 45%;
+}
+}
